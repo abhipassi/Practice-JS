@@ -76,3 +76,23 @@
 //     }
 //     return count;
 // }
+// For a given array of numbers, print the square of each value using the forEach loop.
+// let arr = [1,2,3,4,5,6,7,8,9];
+//  arr.forEach((num) =>{
+//     console.log(num * num);
+//  })
+
+//  another way
+// let sq = [23,2,4,23];
+// let square = (num) => {
+//     console.log(num*num);
+// }
+// sq.forEach(square);
+
+// filter method 
+
+// let arr = [2,43,52,14315,23313,53];
+// let newarr = (even) =>{
+//     console.log(even % 2 ===0) ;`   `
+// }
+// let evenArr = arr.filter(newarr);
