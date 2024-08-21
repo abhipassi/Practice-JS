@@ -25,17 +25,22 @@ const hundreds = 1000000
 // console.log(Math.max(1 ,3, 34, 23)); //give maximum value from Array
 
 // random
-console.log(Math.random()); 
+// console.log(Math.random()); 
 // this Math.random() method give you random number between 0 and 1
 
-console.log(Math.random() * 10 +1);
+// console.log(Math.random() * 10 +1);
 
-console.log(Math.floor(Math.random()*10) + 1);
+// console.log(Math.floor(Math.random()*10) + 1);
+const a = Math.random()*10;
+const b = Math.floor(a)+1;
+// console.log(b);
 
-const min = 10
-const max = 20
+const min = 1
+const max = 6
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+// by using above method or formula we can set the range for the Math.random and the +1 is used to eliminate 0 and the +min is used to obtain atleast min vale 
+
 
 
 
