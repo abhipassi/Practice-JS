@@ -93,18 +93,18 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructor: "hitesh"
-}
+// const course = {
+//     coursename: "js in hindi",
+//     price: "999",
+//     courseInstructor: "hitesh"
+// }
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
 
 // {
 //     "name": "hitesh",
@@ -117,3 +117,17 @@ console.log(instructor);
     {},
     {}
 ]
+// const student = {
+//     name: "Abhijit",
+//     age: 21,
+//     "height in feet": 5.11,
+// }
+// console.log(student["height in feet"]);
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+const {courseInstructor: ins} = course
+console.log(ins);
