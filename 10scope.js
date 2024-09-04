@@ -14,13 +14,13 @@ if (true) {
 
 
 // nested function 
-// in the nested function the child can access the variables of the parent but the parent cannot access the child variables 
+// in the nested function the child can access the variables of the parent but the parent cannot access the child variables
 function one(){
     let userName = "Abhijit"
 
     function two(){
         let website = "Youtube"
-        console.log(userName);
+        // console.log(userName);
     }
     // console.log(website);
     
@@ -34,7 +34,7 @@ if (true) {
     let userName = "Abhijit"
     if (userName === "Abhijit") {
         const website = " youtube"
-        console.log(userName + website);
+        // console.log(userName + website);
     }
     // console.log(website); it will give error because we are calling website outside of it scope 
     
