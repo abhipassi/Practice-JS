@@ -1,4 +1,4 @@
-let month = parseInt(prompt("There the number between 1-12"))
+// let month = parseInt(prompt("There the number between 1-12"))
 switch (month) {
     case 1:
         console.log("January");
