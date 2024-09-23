@@ -89,20 +89,28 @@ let objUser = {
 
 
 // accessing the array object using forEach
-let newLanguages = [
-    {
-        name : "javascript",
-        extention : "js"
-    },
-    {
-        name : "java",
-        extention : "java"
-    },
-    {
-        name : "python",
-        extention : "py"
+// let newLanguages = [
+//     {
+//         name : "javascript",
+//         extention : "js"
+//     },
+//     {
+//         name : "java",
+//         extention : "java"
+//     },
+//     {
+//         name : "python",
+//         extention : "py"
+//     }
+// ]
+// newLanguages.forEach((item) =>{
+//     console.log(item.extention);  
+// })
+
+
+let mynum = [121,434,656,8764,232]
+let evenfun = (mynum) =>{
+    for(let char of mynum){
+        return char % 2 ==0
     }
-]
-newLanguages.forEach((item) =>{
-    console.log(item.extention);  
-})
+}

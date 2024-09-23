@@ -96,3 +96,78 @@
 //     console.log(even % 2 ===0) ;`   `
 // }
 // let evenArr = arr.filter(newarr);
+
+
+// fibonacci series
+
+let fibonacci = (n) =>{
+    let fib = [0,1]
+    for(let i = 2 ; i < n ; i ++){
+        fib[i] = fib[i - 1] + fib[i - 2]
+    }
+    return fib
+    
+} 
+// console.log(fibonacci(15));
+
+
+let fib = (n) =>{
+    let a = 0
+    let b = 1
+    const arr =[0]
+    for(let i = 0; i <=n; i++){
+        let c = a+b
+        a = b 
+        b = c
+        arr.push(a)
+    }
+    return arr
+
+}
+// console.log(fib(10));
+
+
+// count vowels 
+
+let countVw = (str) =>{
+    let count = 0
+    for(let char in str){
+        if(char == "a" || char == "e" || char == "i" || char == "o" || char == "u"){
+            count++
+        }
+            
+        
+    }
+    
+    console.log(count);
+}
+// console.log(count);
+// countVow('abhijit')
+let countVow = (str) => {
+    let count = 0;
+    for (let char of str) {
+        if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u' ||
+            char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U') {
+            count++;
+        }
+    }
+    return count;
+}
+
+// console.log(countVow('abhijit')); // Output: 3
+
+let f = (n)=>{
+    let a = 0
+    let b = 1
+    let arr = [0]
+    for(let i = 0; i <=n; i++){
+        let c = a+b
+        a = b
+        b = c
+        arr.push(a)
+    }
+    return arr
+}
+// console.log(f(10));
+
+
