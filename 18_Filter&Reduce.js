@@ -53,16 +53,16 @@ let newBooks = books.filter( (bk) => {
 // map method 
 // let num = [1,2,3,4,5,6,7,8,9,10]
 // let newNum = num.map( (n) =>{
-    // return n + 10
-    // return n < 5
+//     return n + 10
+//     return n < 5
 // })
 // console.log(newNum);
 
 // chaining for methods like filter map
 
-let num = [1,2,3,4,5,6,7,8,9,10]
-let newNums = num.map((n)=>{return n*10}).map( (n)=> {return n *2}).filter((n) =>{return n > 5})
-// console.log(newNums);
+// let num = [1,2,3,4,5,6,7,8,9,10]
+// let newNums = num.map((n)=>{return n*10}).map( (n)=> {return n *2}).filter((n) =>{return n > 5})
+// // console.log(newNums);
 
 
 // let sq = [2,3,4,5,6,7,8,9,10]
@@ -101,7 +101,7 @@ let shoppingCart = [{
     price : 100
 }]
   
-let total = shoppingCart.reduce((acc, item) =>{
-   return acc+item.price
-},0)
-console.log(total);
+// let total = shoppingCart.reduce((acc, item) =>{
+//    return acc+item.price
+// },0)
+// console.log(total);
